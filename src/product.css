@@ -60,11 +60,14 @@
 /* Mobile Styling for the Solutions Section */
 @media (max-width: 768px) {
   .solutions {
-    padding: 30px 10px;
+    padding: 27px 7px;
   }
 
   /* Heading Style on Mobile */
   .solutions > h1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     font-size: 2.5rem;
     text-align: center;
     padding-left: 0;
@@ -76,6 +79,7 @@
   .list {
     flex-direction: column; /* Stack items vertically on mobile */
     align-items: center;
+    justify-content: center;
   }
 
   .sol {
@@ -89,15 +93,18 @@
 
   .sol > li {
     font-size: 1.2rem; /* Adjust font size for mobile */
+    padding-right: 3px;
   }
 
   .sol > h3 {
     font-size: 1rem; /* Adjust font size for mobile */
     margin-top: 5px;
+    padding-right: 25px;
   }
 
   .sol > img {
     height: 80px; /* Smaller image for mobile */
     width: 80px;
+    padding-right: 10px;
   }
 }

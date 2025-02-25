@@ -117,6 +117,7 @@
   
     /* Navbar title */
     .nav h1 {
+      padding-top: 3px;
       font-size: 10px;  /* Further reduce font size */
       margin-bottom: 8px;  /* Adjust space under title */
     }
@@ -129,7 +130,7 @@
     /* Navbar links styling */
     .nav a {
       font-size: 12px;  /* Further reduce font size */
-      padding: 3px 7px;  /* Adjust padding for smaller devices */
+      padding: 2px 6px;  /* Adjust padding for smaller devices */
     }
   }
   

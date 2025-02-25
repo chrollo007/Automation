@@ -121,22 +121,20 @@
 @media (max-width: 768px) {
   /* Content Section */
   .content {
-    padding: 30px 15px;  /* Reduce padding for smaller screens */
+    padding: 28px 13px;  /* Reduce padding for smaller screens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   /* Heading Style */
   .content > h1 {
-    font-size: 2.3rem;  /* Reduce font size */
-    padding-left: 10px;
+    font-size: 2rem;  /* Reduce font size */
+    justify-content: center;
     padding-top: 20px;
   }
 
-  /* Layout for "Who We Are" Section */
-  .whoweare {
-    flex-direction: column;  /* Stack content vertically on small screens */
-    align-items: center;  /* Center align for smaller devices */
-    gap: 20px;
-  }
 
   /* Text Block Styling */
   .text {
@@ -147,12 +145,14 @@
 
   /* Heading inside .text */
   .text h3 {
-    font-size: 1rem;  /* Smaller font size */
+    font-size: 0.9rem;  /* Smaller font size */
     margin-bottom: 8px;  /* Reduce margin */
   }
 
   /* Products Section */
   .products {
+    display: flex;
+    justify-content: center;
     flex-direction: column;  /* Stack products vertically */
     align-items: center;  /* Center align products */
   }

@@ -1,0 +1,51 @@
+.solutions {
+    padding: 50px 20px;
+    height: auto;
+    background-color: #020016; /* Light background to maintain contrast with navbar */
+    border-bottom: 2px solid #000000;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+    height: 75vh;
+  }
+
+  .solutions > h1 {
+    font-size: 3.5rem;
+    color: #ffffff; /* Dark gray for good contrast */
+    margin-bottom: 10px; /* Reduced margin to bring h1 closer to the next text */
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .sol > li {
+    font-size: 1.3rem;
+    list-style: none;
+    color: white;
+    flex-shrink: 0; /* Prevent shrinking of the list item */
+}
+
+.sol > img {
+    height: 120px;
+    width: 120px;
+    flex-shrink: 0; /* Prevent shrinking of the image */
+}
+
+.sol > h3 {
+    font-size: 1.1rem;
+    color: rgb(110, 102, 102);
+    margin-top: 10px;
+    flex-grow: 1; /* Allow the text to grow and take available space */
+}
+
+.sol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px; /* Adjusted gap for more balanced spacing */
+    margin-bottom: 20px; /* Add space between each row */
+    padding: 10px 0;
+}

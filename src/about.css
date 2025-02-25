@@ -1,0 +1,114 @@
+.content {
+    padding: 50px 20px;
+    height: auto;
+    background-color: #020016; /* Light background to maintain contrast with navbar */
+    border-bottom: 1px solid #6a6666;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+  }
+  
+  /* Heading Style */
+ /* Heading Style */
+.content > h1 {
+  font-size: 3.5rem;
+  color: #ffffff; /* Dark gray for good contrast */
+  margin-bottom: 10px; /* Reduced margin to bring h1 closer to the next text */
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+/* Layout for "Who We Are" Section */
+.whoweare {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Text Block Styling */
+.text {
+  flex: 1;
+  padding-right: 10px; /* Reduced padding */
+  text-align: left;
+  max-width: 700px;
+  padding: 0; /* Removed extra padding */
+  margin-left: 20px;
+}
+
+/* Heading inside .text */
+.text h3 {
+  font-size: 1.1rem;
+  color: #6d6a6a;
+  line-height: 1.6;
+  margin-bottom: 10px; /* Reduced margin to bring h3 closer to content */
+  font-weight: 50;
+  letter-spacing: 1px;
+  padding-top: 0px;
+}
+
+  
+.products>ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 25px;
+  }
+  
+.adds>li {
+    font-size: 1.6rem;
+    margin: 15px 0;
+    padding: 12px 20px;
+    color: #6d6a6a;
+  }
+  
+  
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px; /* Space between the two rows */
+  }
+  
+  .logo {
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.163);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .logo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(255, 253, 253, 0.15);
+  }
+  .img{
+    flex-direction: column;
+    margin-right: 50px;
+  }
+.products{
+  display: flex;
+  flex-direction: row;
+ gap: 30px;
+}
+.adds{
+  display: flex;
+  align-items: center;
+}
+.adds>img{
+  height: 70px;
+  width: 70px;
+}

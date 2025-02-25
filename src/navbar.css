@@ -129,7 +129,7 @@
     /* Navbar links styling */
     .nav a {
       font-size: 12px;  /* Further reduce font size */
-      padding: 6px 10px;  /* Adjust padding for smaller devices */
+      padding: 3px 7px;  /* Adjust padding for smaller devices */
     }
   }
   

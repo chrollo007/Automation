@@ -70,7 +70,7 @@
 /* Mobile-specific styling for the navbar */
 @media (max-width: 768px) {
     .nav {
-      padding: 10px 20px;  /* Add some padding to the navbar */
+      padding: 0px;
       flex-direction: column;  /* Stack items vertically for better mobile layout */
       align-items: flex-start;  /* Align navbar items to the left */
     }
@@ -112,7 +112,7 @@
   
   @media (max-width: 480px) {
     .nav {
-      padding: 8px 15px;  /* Further reduce padding for very small screens */
+      padding: 0px;  /* Further reduce padding for very small screens */
     }
   
     /* Navbar title */

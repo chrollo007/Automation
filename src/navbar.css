@@ -61,3 +61,75 @@
 }
 
 /* Additional styling for navbar responsiveness (if needed) */
+
+
+
+
+
+
+/* Mobile-specific styling for the navbar */
+@media (max-width: 768px) {
+    .nav {
+      padding: 10px 20px;  /* Add some padding to the navbar */
+      flex-direction: column;  /* Stack items vertically for better mobile layout */
+      align-items: flex-start;  /* Align navbar items to the left */
+    }
+  
+    /* Navbar title */
+    .nav h1 {
+      font-size: 24px;  /* Reduce font size for smaller screens */
+      padding-left: 0;  /* Adjust padding to suit mobile */
+      margin-bottom: 10px;  /* Add space below title */
+    }
+  
+    /* Navbar menu styling */
+    .nav > ul {
+      display: flex;
+      flex-direction: column;  /* Stack the menu items vertically */
+      gap: 15px;  /* Reduce space between items */
+      align-items: flex-start;  /* Align links to the left */
+      padding: 0;
+      margin: 0;
+    }
+  
+    /* Navbar links styling */
+    .nav a {
+      font-size: 14px;  /* Reduce font size for mobile */
+      padding: 8px 12px;  /* Reduce padding for mobile */
+    }
+  
+    /* Active link styling */
+    .nav a.active {
+      background-color: #333;
+      color: #f0f0f0;
+    }
+  
+    /* Hover effect */
+    .nav a:hover {
+      color: rgb(214, 202, 202);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav {
+      padding: 8px 15px;  /* Further reduce padding for very small screens */
+    }
+  
+    /* Navbar title */
+    .nav h1 {
+      font-size: 20px;  /* Further reduce font size */
+      margin-bottom: 8px;  /* Adjust space under title */
+    }
+  
+    /* Navbar menu styling */
+    .nav > ul {
+      gap: 10px;  /* Reduce space between items */
+    }
+  
+    /* Navbar links styling */
+    .nav a {
+      font-size: 12px;  /* Further reduce font size */
+      padding: 6px 10px;  /* Adjust padding for smaller devices */
+    }
+  }
+  

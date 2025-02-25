@@ -19,7 +19,7 @@ function Home(){
         </video>
       </div>
             <div className='heading'>
-           <h1>Welcome to Automation</h1>
+            <h1><span class="welcome">Welcome to</span> <span class="company-name">GA Applications</span></h1>
            </div>
            <div className='content-written'>
                 <h3>Empowering Your Business with Cutting-Edge Automation & AI Solutions</h3>

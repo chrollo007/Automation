@@ -1,6 +1,7 @@
 import './product.css'
 import tl from './assets/tl.png'
 import iot from './assets/IOT-enable.png'
+import cctv from './assets/cctv.png'
 function Products(){
     return(
         <>
@@ -14,8 +15,10 @@ function Products(){
                     <div className='sol'><li>IOT Enabled Solutions</li><img src={iot} alt="" />
                     <h3>IoT-enabled Automation Our IoT tools connect various city infrastructure elements to optimize performance. We help cities manage energy consumption, monitor air quality, and ensure the efficient functioning of traffic systems.</h3>
                     </div>
+                    <div className='sol'><li>AI Powered CCTV Cameras</li><img src={cctv} alt="" />
+                    <h3>AI-powered CCTV cameras enhance security with features like facial recognition, smart motion detection, real-time alerts, and cloud integration, offering reliable, efficient surveillance with reduced false alarms for homes, offices, and public spaces.</h3>
+                    </div>
                 </ul>
-
             </div>
 
         </div>

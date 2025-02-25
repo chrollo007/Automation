@@ -6,7 +6,7 @@ function Navbar(){
     return(
         <>
         <div className="nav">
-            <Link to='/'><h1>Automation</h1></Link>
+            <Link to='/'><h1>GA Applications</h1></Link>
             <ul>
                 <Link to="/"><li>Home</li></Link>
                 <Link to="/about"><li>About us</li></Link>

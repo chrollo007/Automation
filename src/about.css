@@ -112,3 +112,95 @@
   height: 70px;
   width: 70px;
 }
+
+
+
+
+/* Mobile-specific styles for content */
+@media (max-width: 768px) {
+  /* Content Section */
+  .content {
+    padding: 30px 15px;  /* Reduce padding for smaller screens */
+  }
+
+  /* Heading Style */
+  .content > h1 {
+    font-size: 2.5rem;  /* Reduce font size */
+    padding-left: 15px;
+    padding-top: 20px;
+  }
+
+  /* Layout for "Who We Are" Section */
+  .whoweare {
+    flex-direction: column;  /* Stack content vertically on small screens */
+    align-items: center;  /* Center align for smaller devices */
+    gap: 20px;
+  }
+
+  /* Text Block Styling */
+  .text {
+    max-width: 100%;  /* Allow text to take full width */
+    margin-left: 0;  /* Remove left margin */
+    padding-right: 0;  /* Remove right padding */
+  }
+
+  /* Heading inside .text */
+  .text h3 {
+    font-size: 1rem;  /* Smaller font size */
+    margin-bottom: 8px;  /* Reduce margin */
+  }
+
+  /* Products Section */
+  .products {
+    flex-direction: column;  /* Stack products vertically */
+    align-items: center;  /* Center align products */
+  }
+
+  /* List items in .adds */
+  .adds > li {
+    font-size: 1.4rem;  /* Smaller font size for mobile */
+    margin: 12px 0;
+    padding: 10px 15px;  /* Reduced padding */
+  }
+
+  /* Image Section */
+  .image {
+    flex-direction: column;  /* Stack images vertically */
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .image2 {
+    display: none;
+    flex-direction: column;  /* Stack images vertically */
+    margin-top: 30px;  /* Reduced gap between rows */
+  }
+
+  /* Logo Styling */
+  .logo {
+    height: 200px;  /* Smaller logo size */
+    width: 200px;
+  }
+
+  /* Logo hover effect */
+  .logo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 253, 253, 0.15);
+  }
+
+  /* Image container for mobile */
+  .img {
+    margin-right: 0;  /* Remove right margin */
+  }
+
+  /* Adjust .adds container to be centered */
+  .adds {
+    justify-content: center;
+  }
+
+  /* Adjust icon sizes in .adds */
+  .adds > img {
+    height: 50px;  /* Smaller icon size */
+    width: 50px;
+  }
+}

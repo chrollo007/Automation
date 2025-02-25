@@ -16,7 +16,7 @@ function About(){
                     <div className='whoweare'>
                     <div className="text">
                             <h3>
-                            At Automation, we are revolutionizing the way businesses operate by creating cutting-edge automation tools that harness the power of the Internet of Things (IoT) and Artificial Intelligence/Machine Learning (AI/ML). Our mission is simple: to empower organizations with intelligent solutions that drive efficiency, innovation, and growth.
+                            At GA Applications, we are revolutionizing the way businesses operate by creating cutting-edge automation tools that harness the power of the Internet of Things (IoT) and Artificial Intelligence/Machine Learning (AI/ML). Our mission is simple: to empower organizations with intelligent solutions that drive efficiency, innovation, and growth.
                             </h3>
                             <div className='products'>
                             <ul>

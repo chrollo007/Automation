@@ -5,7 +5,12 @@
     border-bottom: 2px solid #000000;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 0;
-    height: 75vh;
+  }
+  .list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
   }
 
   .solutions > h1 {
@@ -48,4 +53,51 @@
     gap: 20px; /* Adjusted gap for more balanced spacing */
     margin-bottom: 20px; /* Add space between each row */
     padding: 10px 0;
+}
+
+
+
+/* Mobile Styling for the Solutions Section */
+@media (max-width: 768px) {
+  .solutions {
+    padding: 30px 10px;
+  }
+
+  /* Heading Style on Mobile */
+  .solutions > h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* Adjusting the list for mobile */
+  .list {
+    flex-direction: column; /* Stack items vertically on mobile */
+    align-items: center;
+  }
+
+  .sol {
+    flex-direction: column; /* Stack items vertically for each solution */
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding: 10px 0;
+  }
+
+  .sol > li {
+    font-size: 1.2rem; /* Adjust font size for mobile */
+  }
+
+  .sol > h3 {
+    font-size: 1rem; /* Adjust font size for mobile */
+    margin-top: 5px;
+  }
+
+  .sol > img {
+    height: 80px; /* Smaller image for mobile */
+    width: 80px;
+  }
 }

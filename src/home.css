@@ -25,7 +25,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;  /* Makes sure the video fills the screen */
-  opacity: 0.9;  /* Increased opacity to make the video more visible */
+  opacity: 0.8;  /* Increased opacity to make the video more visible */
 }
 
 /* Overlay to improve contrast between video and content */
@@ -40,24 +40,39 @@
 }
 
 /* Heading style */
+/* Overall heading styling */
 .heading h1 {
-  padding-top: 100px;
   font-size: 4rem;
   font-weight: bold;
   margin-bottom: 20px;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #ffffff;  /* Adjust text color for contrast */
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);  /* Stronger shadow for better contrast */
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  text-align: center; /* Ensure it's centered */
 }
+
+/* Styling for "Welcome to" */
+.welcome {
+  font-weight: normal;  /* Lighter weight for the "Welcome" text */
+  opacity: 0.8; /* Slightly faded to differentiate */
+}
+
+/* Styling for the company name "GA Applications" */
+.company-name {
+  font-weight: bolder;  /* Make the company name bold */
+  color: #001147; /* Lighter color for emphasis */
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.6); /* Stronger shadow for contrast */
+}
+
 
 /* Content under heading */
 .content-written h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 30px;
-  letter-spacing: 1px;
-  font-weight: 300;
-  color: #ffffff;  /* Adjust text color for contrast */
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #000000;  /* Adjust text color for contrast */
   opacity: 1;  /* Ensure text is fully opaque */
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);  /* Stronger shadow for better contrast */
 }
@@ -78,4 +93,72 @@
 /* Styling for spacing and layout */
 .first .heading, .first .content-written, .first .website {
   margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .first {
+    padding: 60px 20px; /* Adjust padding for smaller screens */
+  }
+
+  /* Heading style */
+  .heading h1 {
+    font-size: 2.5rem;  /* Adjust font size for mobile */
+    padding-top: 50px;  /* Adjust padding-top for better spacing */
+    letter-spacing: 1.5px; /* Reduce letter spacing */
+  }
+
+  /* Content under heading */
+  .content-written h3 {
+    font-size: 1.8rem;  /* Adjust font size */
+    margin-bottom: 20px;  /* Reduce margin for mobile */
+    color: #333333; /* Change to a darker color for readability */
+  }
+
+  /* Website section content */
+  .website h3 {
+    font-size: 1.2rem;  /* Reduce font size for mobile */
+    padding: 0 10px;  /* Reduce padding for mobile */
+    line-height: 1.6;  /* Adjust line-height for better readability */
+  }
+
+  /* Additional styling for smaller screens */
+  .video-background {
+    opacity: 0.9;  /* Increase opacity slightly on mobile */
+  }
+
+  .first .heading, .first .content-written, .first .website {
+    margin-bottom: 20px;  /* Reduce bottom margin on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .first {
+    padding: 40px 15px; /* Further reduce padding for very small screens */
+  }
+
+  .heading h1 {
+    font-size: 2rem;  /* Further reduce font size for very small screens */
+    padding-top: 30px;  /* Adjust top padding for better fit */
+  }
+
+  .content-written h3 {
+    font-size: 1.5rem;  /* Reduce font size even more for small screens */
+    margin-bottom: 15px;  /* Reduce margin further */
+  }
+
+  .website h3 {
+    font-size: 1rem;  /* Further reduce font size */
+    padding: 0 5px;  /* Adjust padding */
+  }
+
+  .video-background {
+    opacity: 0.9;  /* Keep opacity high for better visibility */
+  }
 }

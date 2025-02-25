@@ -32,19 +32,19 @@ function Contact(){
                 
                 <div className="section">
                     <h3>Reach Us.</h3>
-                    <h4>xyz@gmail.com</h4>
+                    <h4>home@gaapplications.com</h4>
                 </div>
                 
                 <div className="section">
                     <h3>Call</h3>
-                    <h4>+91 9876453627</h4>
+                    <h4>+91 8340291901</h4>
                 </div>
                 
                 <div className="section">
                     <h3>Visit Us.</h3>
                     <h4>Company</h4>
-                    <h4>A-44 Block Haryana,</h4>
-                    <h4>Hisaar</h4>
+                    <h4>24, A Block, Defence Colony,</h4>
+                    <h4>Hisar, Haryana 125001</h4>
                 </div>
                 </div>
 

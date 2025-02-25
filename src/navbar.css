@@ -71,7 +71,7 @@
 @media (max-width: 768px) {
     .nav {
       padding: 0px;
-      flex-direction: column;  /* Stack items vertically for better mobile layout */
+      flex-direction: row;  /* Stack items vertically for better mobile layout */
       align-items: flex-start;  /* Align navbar items to the left */
     }
   
@@ -85,8 +85,8 @@
     /* Navbar menu styling */
     .nav > ul {
       display: flex;
-      flex-direction: column;  /* Stack the menu items vertically */
-      gap: 15px;  /* Reduce space between items */
+      flex-direction:row;  /* Stack the menu items vertically */
+      gap: 5px;  /* Reduce space between items */
       align-items: flex-start;  /* Align links to the left */
       padding: 0;
       margin: 0;
@@ -117,7 +117,7 @@
   
     /* Navbar title */
     .nav h1 {
-      font-size: 20px;  /* Further reduce font size */
+      font-size: 10px;  /* Further reduce font size */
       margin-bottom: 8px;  /* Adjust space under title */
     }
   

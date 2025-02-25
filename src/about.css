@@ -154,6 +154,8 @@
   .products {
     flex-direction: column;  /* Stack products vertically */
     align-items: center;  /* Center align products */
+    justify-content: center;
+    align-content: center;
   }
 
   /* List items in .adds */
@@ -165,7 +167,7 @@
 
   /* Image Section */
   .image {
-    flex-direction: column;  /* Stack images vertically */
+    flex-direction: row;  /* Stack images vertically */
     gap: 15px;
     margin-top: 20px;
   }
@@ -200,7 +202,7 @@
 
   /* Adjust icon sizes in .adds */
   .adds > img {
-    height: 50px;  /* Smaller icon size */
-    width: 50px;
+    height: 40px;  /* Smaller icon size */
+    width: 40px;
   }
 }

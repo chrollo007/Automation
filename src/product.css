@@ -1,8 +1,8 @@
 .solutions {
     padding: 50px 20px;
     height: auto;
-    background-color: #020016; /* Light background to maintain contrast with navbar */
-    border-bottom: 2px solid #000000;
+    background-color: #84a23e; /* Light background to maintain contrast with navbar */
+    border-bottom: 1px solid #000000;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 0;
   }
@@ -15,7 +15,7 @@
 
   .solutions > h1 {
     font-size: 3.5rem;
-    color: #ffffff; /* Dark gray for good contrast */
+    color: #2e2e2e; /* Dark gray for good contrast */
     margin-bottom: 10px; /* Reduced margin to bring h1 closer to the next text */
     text-align: left;
     text-transform: uppercase;
@@ -41,7 +41,7 @@
 
 .sol > h3 {
     font-size: 1.1rem;
-    color: rgb(110, 102, 102);
+    color: rgb(255, 255, 255);
     margin-top: 10px;
     flex-grow: 1; /* Allow the text to grow and take available space */
 }

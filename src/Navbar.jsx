@@ -1,19 +1,32 @@
 import './navbar.css'
 import {Link} from 'react-router-dom'
+import {motion} from 'framer-motion';
 
 
 function Navbar(){
     return(
         <>
-        <div className="nav">
-            <Link to='/'><h1>GA Applications</h1></Link>
+         <motion.div
+            className="nav"
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+        >
             <ul>
-                <Link to="/"><li>Home</li></Link>
-                <Link to="/about"><li>About us</li></Link>
-                <Link to="/contact"><li>Contact</li></Link>
-                <Link to="/products"><li>Products</li></Link>
+                <motion.li whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
+                    <Link to="/">Home</Link>
+                </motion.li>
+                <motion.li whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
+                    <Link to="/about">About us</Link>
+                </motion.li>
+                <motion.li whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
+                    <Link to="/contact">Contact</Link>
+                </motion.li>
+                <motion.li whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
+                    <Link to="/products">Products</Link>
+                </motion.li>
             </ul>
-        </div>
+        </motion.div>
         </>
     )
 }

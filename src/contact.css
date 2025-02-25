@@ -1,6 +1,6 @@
 .cards>h1{
     font-size: 3.5rem;
-    color: #ffffff; /* Dark gray for good contrast */
+    color: #2e2e2e; /* Dark gray for good contrast */
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -12,6 +12,7 @@
 .cards {
     margin-top: -38px;
     position: relative; /* Make the container relative to position the image */
+    background-color: #65ad5a;
 }
 
 .cards > img {
